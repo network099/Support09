@@ -300,7 +300,15 @@ body {
   color: white;
   text-align: center;
   padding: 60px 20px;
+  margin: 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
+
 
 .cta-section h2 {
   font-size: 32px;
@@ -312,13 +320,18 @@ body {
   font-size: 18px;
   color: #dbe6f4;
 }
-
 /* Footer */
 .site-footer {
   background-color: #0a0a0a;
-  color: #fff;
+  color: white;
   padding: 40px 20px;
-  font-family: sans-serif;
+  margin: 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .footer-container {
